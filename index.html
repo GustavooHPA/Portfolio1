@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <img src="image/Perfil.png" alt="Foto de Perfil">
+        <div class="infos">
+            <h1>Gustavo Henrique Gomes de Holanda</h1>
+            <h2>Front-end web developer</h2>
+        </div>
+    </header>
+    <main>
+        <div class="sobre">
+            <h1>Sobre:</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At saepe qui ducimus aliquid hic minus 
+                mollitia modi voluptatibus molestias ut provident tempora, esse nulla sint ratione quos! 
+                A, facilis animi?
+                <br>
+                <br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. At saepe qui ducimus aliquid hic minus 
+                mollitia modi voluptatibus molestias ut provident tempora, esse nulla sint ratione quos! 
+                A, facilis animi?</p>
+        </div>
+        <div class="projetos">
+            <h1>
+                Projetos
+            </h1>
+            <p>
+                Alguns dos projetos que já fiz
+            </p>
+            <div class="BolaDeCristal">
+                <a href="https://gustavoohpa.github.io/Bola-de-cristal/" target="_blank">
+                    <img src="https://gist.githubusercontent.com/maykbrito/0acdf4ce919838ffed50915a31fc5b23/raw/6f4dd01ec3116428ec4c99255944cb9ac7927590/cristal-ball.svg" alt="Bola de Cristal">
+                    <p>Bola de Cristal</p>
+                </a>
+            </div>
+            <div class="WebPuzzleGame">
+                <a href="https://gustavoohpa.github.io/Web-Puzzle-Game/" target="_blank">
+                    <img src="image/WebPuzzleGame.png" alt="Web Puzzle Game">
+                    <p>Web Puzzle Game</p>
+                </a>
+            </div>
+        </div>
+        </div>
+        <div class="contato">
+            <fieldset class="formulário">
+                <legend>
+                    Formulário de contato
+                </legend>
+                <form action="contato" class="contato">
+                    <div class="form">
+                       <label for="Nome">Nome: </label>
+                        <input type="text" 
+                        id="Nome" 
+                        class="Input" 
+                        placeholder="Gustavo Henrique" 
+                        maxlength="60"> 
+                    </div>
+                    <div class="form">
+                        <label for="Email">Email: </label>
+                        <input type="email" 
+                        id="Email" 
+                        class="Input" 
+                        placeholder="abcdefg@gmail.com" 
+                        minlength="8" 
+                        maxlength="60">
+                    </div>
+                    <div>
+                        <label for="Mensagem">Mensagem: </label>
+                        <br>
+                        <textarea name="Mensagem" 
+                        id="Mensagem" 
+                        placeholder="Insira a mensagem aqui..."></textarea>
+                    </div>
+                    <input type="button" value="Enviar" onclick="Enviar()">
+                </form>
+            </fieldset>
+        </div>
+    </main>
+    <footer>
+        <div class="redesociais">
+            <div class="github">
+                <a href="https://github.com/GustavooHPA" target="_blank">
+                    <img src="image/icone-github.png" alt="icone-github" class="icones">
+                    Github
+                </a>
+            </div>
+            <div class="twitter">
+                <a href="https://twitter.com/GustavoHPA_" target="_blank">
+                    <img src="image/icone-twitter.png" alt="icone-twitter" class="icones">
+                    Twitter
+                </a>
+            </div>
+            <div class="instagram">
+                <a href="https://www.instagram.com/gustavohpa_/" target="_blank">
+                    <img src="image/icone-instagram.png" alt="icone-instagram" class="icones">
+                    Instagram
+                </a>
+            </div>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
